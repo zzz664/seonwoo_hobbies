@@ -14,3 +14,9 @@ export const sectionDiv = styled.div`
   font-size: 100px;
   background-color: ${(props) => props.background || 'white'};
 `;
+
+export const screenDivider = styled.div`
+  width: 100%;
+  height: 5px;
+  background-color: grey;
+`;
